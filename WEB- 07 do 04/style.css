@@ -8,6 +8,8 @@ body {
     background-image: url(images/cinema.png);
     background-size: 300px;
     background-repeat: repeat;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -17,38 +19,47 @@ h1 {
     color: white;
 }
 
-.hea a {
-    position: absolute;
-    right: 20px;
-    top: 15px;
-    gap: 5px;
+.header a {
+    display: flex;
+    justify-content: flex-end;
+    display: grid;
+    grid-template-columns: 50px;
 }
-.hea {
+.header {
     background-color: deepskyblue;
     width: cover;
     height: 85px;
-    border: 1px solid;
+    border: 1px solid deepskyblue;
     border-radius: 10px;
     padding: 10px;
-
+    margin: 10px;
 }
 
 .imagem {
     background-color: white;
-    width: 300px;
+    width: 350px;
     margin: 10px;
-    border: 1px solid;
+    border: 1px solid white;
     border-radius: 10px;
     padding: 10px;
 }
 
+.imagem:hover{
+    transform: translatex(9px);
+}
+
+.texto:hover {
+    transform: translatex(9px);
+
+}
+
 .texto {
     background-color: white;
-    width: 300px;
-    border: 1px solid;
+    width: 1000px;
+    border: 1px solid white;
     border-radius: 10px;
-    padding: 10px;
-
+    padding: 20px;
+    margin: 15px;
 }
 
 .dentro {
