@@ -19,15 +19,9 @@ h1 {
     color: white;
 }
 
-.header a {
-    display: flex;
-    justify-content: flex-end;
-    display: grid;
-    grid-template-columns: 50px;
-}
-.header {
+
+header {
     background-color: deepskyblue;
-    width: cover;
     height: 85px;
     border: 1px solid deepskyblue;
     border-radius: 10px;
@@ -45,11 +39,11 @@ h1 {
 }
 
 .imagem:hover{
-    transform: translatex(9px);
+    transform: translatex(3px);
 }
 
 .texto:hover {
-    transform: translatex(9px);
+    transform: translatex(3px);
 
 }
 
@@ -72,4 +66,13 @@ h1 {
     display: flex;
     gap: 15px;
 
+}
+
+footer {
+    height: 45px;
+    border: 1px solid darkgoldenrod;
+    border-radius: 10px;
+    text-align: center;
+    background-color: darkgoldenrod;
+    color: black;
 }
