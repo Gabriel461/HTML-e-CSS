@@ -20,6 +20,9 @@ h1 {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: deepskyblue;
     height: 85px;
     border: 1px solid deepskyblue;
