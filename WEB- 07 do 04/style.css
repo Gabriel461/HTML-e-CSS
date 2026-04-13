@@ -12,18 +12,12 @@ body {
     padding: 0px;
 }
 
-
-
-h1 {
-    text-align: center;
-    color: white;
-}
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: deepskyblue;
+    color: white;
     height: 85px;
     border: 1px solid deepskyblue;
     border-radius: 10px;
@@ -41,11 +35,11 @@ header {
 }
 
 .imagem:hover{
-    transform: translatex(3px);
+    transform: scale(1.1);
 }
 
 .texto:hover {
-    transform: translatex(3px);
+    transform: scale(1.1);
 
 }
 
